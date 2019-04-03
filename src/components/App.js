@@ -3,8 +3,6 @@ import "../style/App.css";
 
 class App extends Component {
   render() {
-    console.log("messy");
-
     return (
       <div className="App">
         <h1>React Boilerplate</h1>
