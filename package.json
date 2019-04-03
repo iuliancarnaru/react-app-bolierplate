@@ -34,7 +34,8 @@
     "node-sass": "^4.11.0",
     "prettier": "^1.16.4",
     "pretty-quick": "^1.10.0",
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "react-contenteditable": "^3.2.6"
   },
   "husky": {
     "hooks": {
