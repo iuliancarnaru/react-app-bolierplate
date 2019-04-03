@@ -70,3 +70,20 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ### enzyme-to-json
 
 For more info visit: https://www.npmjs.com/package/enzyme-to-json
+
+### Aditional VS config
+
+{
+"files.autoSave": "onFocusChange",
+"editor.formatOnSave": true,
+"emmet.includeLanguages": {
+"javascript": "javascriptreact",
+"vue-html": "html"
+},
+"[javascript]": {
+"editor.formatOnSave": false
+},
+"eslint.autoFixOnSave": true,
+"eslint.alwaysShowStatus": true,
+"prettier.disableLanguages": ["js"]
+}
