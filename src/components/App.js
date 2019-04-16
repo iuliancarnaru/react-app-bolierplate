@@ -1,11 +1,20 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const App = () => {
+const App = props => {
   return (
     <div>
-      <h1>CRUD with HOOKS</h1>
+      <h1>{props.title}</h1>
     </div>
   );
+};
+
+App.defaultProps = {
+  title: "CRUD with Hooks"
+};
+
+App.propTypes = {
+  title: PropTypes.string
 };
 
 export default App;
